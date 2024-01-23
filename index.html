@@ -37,56 +37,55 @@
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
     <style>
+      
       body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f7f7f7;
-        color: #333;
+        font-family: "Georgia", sans-serif;
+        background-color: #3c48afd3;
+        color: #523fa8;
+
       }
 
       header {
         position: relative;
-        text-align: center;
-        background-color: #9cccdd;
-        padding: 30px;
+        padding: 40px;
         color: #000000;
-        border-radius: 20px;
+
+        
       }
 
       .photo {
-        position: absolute;
-        top: 20px;
-        right: 10px;
+        position: static;
+        float: left;
         width: 150px;
         height: 150px;
-        overflow: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: visible;
       }
 
       .photo img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 10%;
+        border-radius: 10px;
       }
 
       h1,
       h2 {
-        color: #151f7b;
+        color: #000000;
+        position: relative;
+        left: 10%;
       }
 
       section {
-        margin: 20px 20px;
+        margin: 5px 5px;
         background-color: #ffffff;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(4, 4, 4, 0.1);
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 5px rgba(4, 4, 4, 0.1);
       }
 
       ul {
-        list-style-type: none;
-        padding: 0;
+        list-style-type: None;
+        padding: 5px;
       }
 
       li {
@@ -94,30 +93,43 @@
       }
 
       .contact-info {
-        margin-top: 10px;
+        margin-top: 5px;
       }
     </style>
+     <head>
+      <style>
+        .container {
+            display: flex;
+            justify-content: splace-between;
+            position: relative;
+            left: 10%;
+        }
+  
+        .column {
+            width: 85%;
+        }
+    </style>
+    </head>
   </head>
   <body>
     <header>
-      <div class="photo">
+     <div class="photo">
         <img
           id="profile-picture"
-          src="images/loanecvphoto.jpg"
+          src="images/photo -cv.png"
           alt="Photo de Loane Mauger"
         />
       </div>
-      <h1>Loane Mauger</h1>
+      <h2>LOANE MAUGER</h2>
       <p>
-        À la recherche d’un stage en communication graphique, marketing digital
-        ou communication digitale à partir du 01/04/24, pour une durée de 2 mois
-        ou 3 mois.
-      </p>
-
-      <a
-        href="mailto:loanemauger@normandiewebschool.fr?subject=demande de devis&body=Bonjour Loane"
-        >Devis</a
-      >
+        <body>
+          <div class="container">
+              <div class="column">
+                  <strong>À la recherche d’un stage en communication graphique, marketing
+                    digital ou communication digitale à partir du 01/04/24, pour une durée
+                    de 2 mois ou 3 mois.<strong></strong>
+              </div>
+         </p>
     </header>
 
     <section id="contact">
@@ -129,15 +141,14 @@
             >loanemauger@normandiewebschool.fr</a
           >
         </li>
-        <li><i class="fa-solid fa-phone"></i> 06 51 46 58 45</li>
+        <li><i class="fa-solid fa-phone"></i> +33 6 51 46 58 45 </li>
         <li>
           <i class="fa-brands fa-linkedin"></i>
           <a
             href="https://www.linkedin.com/in/loane-mauger-"
             target="_blank"
             rel="noopener noreferrer"
-            >linkedin.com/in/loane-mauger-</a
-          >
+            >linkedin.com/in/loane-mauger-</a >
         </li>
 
         <li>
@@ -148,7 +159,7 @@
 
     <section id="formation">
       <h2>Formation</h2>
-      <h3>Normandie Web School - Bachelor chef de projets digitaux</h3>
+      <h3>Normandie Web School  - Rouen - Bachelor chef de projets digitaux</h3>
       <p><strong>2023-2026</strong></p>
       <ul>
         <li>- Marketing digitale</li>
@@ -156,13 +167,13 @@
         <li>- Communication graphique</li>
         <li>- Développement du web</li>
       </ul>
-      <h3>Lycée Thomas Corneille - Baccalauréat général</h3>
+      <h3>Lycée Thomas Corneille - Barentin - Baccalauréat général</h3>
       <p><strong>2020-2023</strong></p>
       <ul>
         <li>- Histoire-Géographie, Géopolitique et Sciences politiques</li>
         <li>- Économie, la sociologie et les sciences politiques</li>
       </ul>
-      <h3>Auto-école Lefevbre - Stage d’observation en tant qu’assistante</h3>
+      <h3>Auto-école Lefevbre - Duclair - Stage d’observation en tant qu’assistante</h3>
       <p><strong>Février 2020</strong></p>
     </section>
 
@@ -202,4 +213,4 @@
       </ul>
     </section>
   </body>
-</html>
+ </html>
